@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NewProject.BL.Interfaces
 {
-    internal interface IMovieService
+    public interface IMovieService
     {
     }
 }

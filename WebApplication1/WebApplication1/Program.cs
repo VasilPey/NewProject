@@ -7,7 +7,8 @@ namespace WebApplication1
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-
+            builder.Services
+                .AddSingleton<IMovieService, MovieService>;
             builder.Services.AddControllers();
 
             var app = builder.Build();

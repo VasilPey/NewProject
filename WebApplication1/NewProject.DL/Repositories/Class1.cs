@@ -11,12 +11,12 @@ namespace NewProject.DL.Repositories
 {
     internal class MovieRepository : IMovieRepository
     {
-        public List<Movie> GetAllMovies
+        public List<Movie> GetAllMovies(
         {
             return MemoryDb.movies;
-            {
+            
 
             }
         }
     }
-}
+
