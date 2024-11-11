@@ -4,6 +4,6 @@ namespace NewProject.DL.Interfaces
 {
     public interface IMovieRepository
     {
-        List<Movie> AllMovies { get; }
+        List<Movie> GetAllMovies ();
     }
 }
