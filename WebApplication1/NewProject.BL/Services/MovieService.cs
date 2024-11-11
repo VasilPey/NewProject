@@ -18,6 +18,11 @@ namespace NewProject.BL.Services
             _movieRepository = movieRepository;
         }
 
+        public void AddMovie(Movie movie)
+        {
+            _movieRepository.AddMovie(movie);
+        }
+
         public List<Movie> GetAllMovies()
         {
             return _movieRepository.GetAllMovies();
