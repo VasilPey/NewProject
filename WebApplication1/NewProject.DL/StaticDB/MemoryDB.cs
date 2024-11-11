@@ -18,6 +18,6 @@ namespace NewProject.DL.StaticDB
                 Title = "The Shawshank Redemption",
                 Year = 1972
             }
-        }
+        };
     }
 }
