@@ -11,5 +11,8 @@ namespace NewProject.BL.Interfaces
     {
         List<Movie> GetAllMovies();
         void AddMovie(Movie movie);
+
+        Movie GetMovieById(int id);
     }
+
 }
