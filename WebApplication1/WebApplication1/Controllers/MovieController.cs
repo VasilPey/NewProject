@@ -30,9 +30,14 @@ namespace WebApplication1.Controllers
             _movieService.AddMovie(movie);
         }
         [HttpGet("GetMovieByID")]
-        public void GetMovieById(int id)
+        public Movie GetMovieById(int id)
         {
-            _movieService.GetMovieById(id);
+            return _movieService.GetMovieById(id);
+        }
+        [HttpDelete("Delete")]
+        public void DeleteMovie(int id)
+        {
+             _movieService.DeleteMovie(id);
         }
     }
 }
