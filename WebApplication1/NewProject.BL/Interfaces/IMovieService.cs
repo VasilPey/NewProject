@@ -13,6 +13,7 @@ namespace NewProject.BL.Interfaces
         void AddMovie(Movie movie);
 
         Movie GetMovieById(int id);
+        void DeleteMovie(int id);
     }
 
 }

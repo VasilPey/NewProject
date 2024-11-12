@@ -32,5 +32,11 @@ namespace NewProject.BL.Services
         {
             return _movieRepository.GetMovieById(id);
         }
+        public void DeleteMovie(int id)
+        {
+            _movieRepository.DeleteMovie(id);
+        }
+        
+       
     }
 }

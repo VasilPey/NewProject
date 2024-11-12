@@ -26,6 +26,11 @@ namespace NewProject.DL.Repositories
         {
             return MemoryDB.Movies.FirstOrDefault(m => m.Id == id);
         }
+        public void DeleteMovie(int id)
+        {
+            Movie movie = GetMovieById(id);
+            MemoryDB.Movies.Remove(movie);
+        }
     }
 }
 
