@@ -17,6 +17,12 @@ namespace NewProject.DL.StaticDB
                 Id = 1,
                 Title = "The Shawshank Redemption",
                 Year = 1972
+            },
+            new Movie()
+            {
+                Id = 2,
+                Title = "Gundi",
+                Year = 2024
             }
         };
     }

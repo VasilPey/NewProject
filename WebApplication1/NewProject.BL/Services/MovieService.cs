@@ -27,5 +27,10 @@ namespace NewProject.BL.Services
         {
             return _movieRepository.GetAllMovies();
         }
+
+        public Movie? GetMovieById(int id)
+        {
+            return _movieRepository.GetMovieById(id);
+        }
     }
 }
